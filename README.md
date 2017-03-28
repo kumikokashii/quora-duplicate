@@ -10,3 +10,6 @@ Each question is tokenized into sentences. Each sentence is tokenized into words
 2. scikit-learn's AdaBoost Classifier
 3. scikit-learn's Logistic Regression
 4. dmlc's XGBoost
+### #4 Reduce TF-IDF to 100 components and add as features. Use the default settings of:
+1. scikit-learn's Logistic Regression
+2. dmlc's XGBoost
