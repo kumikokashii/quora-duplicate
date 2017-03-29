@@ -13,3 +13,4 @@ Each question is tokenized into sentences. Each sentence is tokenized into words
 ### #4 Reduce TF-IDF to 100 components and add as features. Use the default settings of:
 1. scikit-learn's Logistic Regression
 2. dmlc's XGBoost
+### #5 Neural Network with 3 hidden layers (215 > 512 > 128 > 64 > 1)
