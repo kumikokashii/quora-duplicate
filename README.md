@@ -14,3 +14,5 @@ Each question is tokenized into sentences. Each sentence is tokenized into words
 1. scikit-learn's Logistic Regression
 2. dmlc's XGBoost
 ### #5 Neural Network with 3 hidden layers (215 > 512 > 128 > 64 > 1)
+1. Each layer consists of: Batch Normalization, Dropout (50%), XW+b, ReLU
+2. (Batch size, Learning rate) = (1000, 0.1)
