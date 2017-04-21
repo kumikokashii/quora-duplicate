@@ -16,3 +16,4 @@ Each question is tokenized into sentences. Each sentence is tokenized into words
 ### #5 Neural Network with 3 hidden layers (215 > 512 > 128 > 64 > 1)
 1. Each layer consists of: Batch Normalization, Dropout (50%), XW+b, ReLU
 2. (Batch size, Learning rate) = (1000, 0.1)
+### Label each token of the training questions with its POS (Part of Speech) with the default POS tagger
