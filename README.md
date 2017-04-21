@@ -17,3 +17,4 @@ Each question is tokenized into sentences. Each sentence is tokenized into words
 1. Each layer consists of: Batch Normalization, Dropout (50%), XW+b, ReLU
 2. (Batch size, Learning rate) = (1000, 0.1)
 ### [ Prep ] POS tagging of the training questions with the default POS tagger
+### [ Prep ] Manhattan LSTM
