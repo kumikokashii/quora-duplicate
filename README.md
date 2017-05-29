@@ -22,6 +22,6 @@ Each question is tokenized into sentences. Each sentence is tokenized into words
 1. Replace up to 5 words of each question with their synonym
 2. Swap question 1 and question 2 with a 50% possibility
 3. **Convolutions**: For each of window size (3, 5, 7, 11), perform a convolution with 100 output feature maps, then max pooling for each feature map. Add (4 window sizes) x (100 values) x (2 questions) = (800 features) to the fully-connected layer.
-4. **Long short-term memory**: Use the last hidden outputs from each question, and the Manhattan similarity between the two. Add (50 values) x (2 questions) + (1 Manhattan similarity) = (101 features) to the fully-connected layer.
+4. **Long short-term memory**: Use the last output vector from each question, and the similarity between the two. Add (50 values) x (2 questions) + (1 similarity) = (101 features) to the fully-connected layer.
 5. **Fully-connected** with 2 hidden layers (1116 > 256 > 32 > 1): Each layer consists of Batch Normalization, Dropout (50%), XW+b, ReLU
 6. (Batch size, Learning rate) = (1000, 0.1)
